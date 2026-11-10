@@ -1,0 +1,7 @@
+{
+  "batch_size_records": 500,
+  "p50_latency_ms": 1.42,
+  "p95_latency_ms": 2.15,
+  "p99_latency_ms": 3.08,
+  "throughput_records_per_sec": 324500
+}

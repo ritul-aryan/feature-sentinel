@@ -1,0 +1,39 @@
+{
+  "circuit_state": "TRIPPED_QUARANTINE",
+  "trip_reason": "Critical distribution drift on: req_latency_ms",
+  "metrics": {
+    "total_records": 1800,
+    "quarantined_records": 945,
+    "anomaly_rate": 0.525
+  },
+  "feature_telemetry": {
+    "req_latency_ms": {
+      "ks_stat": 0.7044,
+      "p_value": 1.72e-321,
+      "psi": 5.4218,
+      "wasserstein": 162.9893,
+      "severity": "CRITICAL"
+    },
+    "payload_size_kb": {
+      "ks_stat": 0.0482,
+      "p_value": 0.003138,
+      "psi": 0.009,
+      "wasserstein": 22.2164,
+      "severity": "NEGLIGIBLE"
+    },
+    "embedding_variance": {
+      "ks_stat": 0.0503,
+      "p_value": 0.001734,
+      "psi": 0.0055,
+      "wasserstein": 0.032,
+      "severity": "NEGLIGIBLE"
+    },
+    "token_entropy": {
+      "ks_stat": 0.0215,
+      "p_value": 0.5371,
+      "psi": 0.006,
+      "wasserstein": 0.0052,
+      "severity": "NEGLIGIBLE"
+    }
+  }
+}
